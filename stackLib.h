@@ -8,9 +8,10 @@ typedef void* TYPE;
 
 void push(Pila* pila, void* value);
 void* pop(Pila* pila);
-void* peek(Stack* stack);
+void* peek(Pila* pila);
 
 void printStack(Pila* stack);
 Stack* newStack();
 
 #endif
+
